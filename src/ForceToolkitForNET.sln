@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolkitForNET", "ForceToolkitForNET\ForceToolkitForNET.csproj", "{1CC985BC-27F3-4F1D-8946-F4DDB084B58F}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows8OAuth", "..\samples\Windows8OAuth\Windows8OAuth.csproj", "{9C88ADF7-095F-49F2-B9C4-9D794240323C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneOAuth8.0", "..\samples\WindowsPhoneOAuth8.0\WindowsPhoneOAuth8.0.csproj", "{93EDAAC7-C754-4265-88CF-CF682EC2BAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolingToolKitforNET", "ForceToolingToolKitforNET\ForceToolingToolKitforNET.csproj", "{E5890F03-A44E-4B3D-9ABE-44CEE813D489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolingConsole", "ToolingConsole\ToolingConsole.csproj", "{1F40D8AC-27FC-4F33-A36F-D59F504207C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,6 +191,26 @@ Global
 		{93EDAAC7-C754-4265-88CF-CF682EC2BAC1}.Release|x86.ActiveCfg = Release|x86
 		{93EDAAC7-C754-4265-88CF-CF682EC2BAC1}.Release|x86.Build.0 = Release|x86
 		{93EDAAC7-C754-4265-88CF-CF682EC2BAC1}.Release|x86.Deploy.0 = Release|x86
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|x64.ActiveCfg = Release|Any CPU
+		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|x86.ActiveCfg = Release|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,5 +225,6 @@ Global
 		{EEBB0482-7F04-4366-8AD6-BC017E1EDA1D} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 		{9C88ADF7-095F-49F2-B9C4-9D794240323C} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 		{93EDAAC7-C754-4265-88CF-CF682EC2BAC1} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
+		{1F40D8AC-27FC-4F33-A36F-D59F504207C0} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 	EndGlobalSection
 EndGlobal
