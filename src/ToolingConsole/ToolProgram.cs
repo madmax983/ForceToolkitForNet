@@ -70,7 +70,7 @@ namespace ToolingConsole
 
             // Create Tooling Information
             Console.WriteLine("Test Tooling API");
-            var toolingInformation = await client.GetObjectsAsync<string>();
+            var toolingInformation = await client.GetObjectsAsync<DescribeGlobalResult<string>>();
             var metadataContainer = new MetadataContainer { Name = "TestContainer" };
             metadataContainer.Id = await client.CreateAsync(MetadataContainer.SObjectTypeName, metadataContainer);
             if (metadataContainer.Id == null)
