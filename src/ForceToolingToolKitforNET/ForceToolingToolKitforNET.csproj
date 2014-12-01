@@ -8,8 +8,8 @@
     <ProjectGuid>{E5890F03-A44E-4B3D-9ABE-44CEE813D489}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ForceToolingToolKitforNET</RootNamespace>
-    <AssemblyName>ForceToolingToolKitforNET</AssemblyName>
+    <RootNamespace>Salesforce.Tooling</RootNamespace>
+    <AssemblyName>Salesforce.Tooling</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -40,8 +40,54 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IToolingClient.cs" />
+    <Compile Include="Models\ApexClass.cs" />
+    <Compile Include="Models\ApexClassMember.cs" />
+    <Compile Include="Models\ApexCodeCoverage.cs" />
+    <Compile Include="Models\ApexCodeCoverageAggregate.cs" />
+    <Compile Include="Models\ApexComponent.cs" />
+    <Compile Include="Models\ApexComponentMember.cs" />
+    <Compile Include="Models\ApexExecutionOverlayAction.cs" />
+    <Compile Include="Models\ApexExecutionOverlayResult.cs" />
+    <Compile Include="Models\ApexLog.cs" />
+    <Compile Include="Models\ApexOrgWideCoverage.cs" />
+    <Compile Include="Models\ApexPage.cs" />
+    <Compile Include="Models\ApexPageMember.cs" />
+    <Compile Include="Models\ApexResult.cs" />
+    <Compile Include="Models\ApexTestQueueItem.cs" />
+    <Compile Include="Models\ApexTestResult.cs" />
+    <Compile Include="Models\ApexTrigger.cs" />
+    <Compile Include="Models\ApexTriggerMember.cs" />
+    <Compile Include="Models\CompactLayout.cs" />
+    <Compile Include="Models\CustomField.cs" />
+    <Compile Include="Models\CustomObject.cs" />
+    <Compile Include="Models\DeployDetails.cs" />
+    <Compile Include="Models\EmailTemplate.cs" />
+    <Compile Include="Models\EntityDefinition.cs" />
+    <Compile Include="Models\FieldDefinition.cs" />
+    <Compile Include="Models\FlexiPage.cs" />
+    <Compile Include="Models\HeapDump.cs" />
+    <Compile Include="Models\Layout.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\MetadataContainer.cs" />
+    <Compile Include="Models\Profile.cs" />
+    <Compile Include="Models\ProfileLayout.cs" />
+    <Compile Include="Models\QuickActionDefinition.cs" />
+    <Compile Include="Models\QuickActionList.cs" />
+    <Compile Include="Models\QuickActionListItem.cs" />
+    <Compile Include="Models\RecordType.cs" />
+    <Compile Include="Models\SOQLResult.cs" />
+    <Compile Include="Models\StaticResource.cs" />
+    <Compile Include="Models\SymbolTable.cs" />
+    <Compile Include="Models\TraceFlag.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\ValidationRule.cs" />
+    <Compile Include="Models\WorkflowAlert.cs" />
+    <Compile Include="Models\WorkflowFieldUpdate.cs" />
+    <Compile Include="Models\WorkflowRule.cs" />
+    <Compile Include="Models\WorkflowTask.cs" />
     <Compile Include="ToolingClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkflowOutboundMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonLibrariesForNET\CommonLibrariesForNET.csproj">

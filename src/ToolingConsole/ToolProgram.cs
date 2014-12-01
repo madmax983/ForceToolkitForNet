@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using Salesforce.Common;
+using Salesforce.Common.Models;
 using Salesforce.Tooling;
+using Salesforce.Tooling.Models;
 using System.Threading.Tasks;
 using System.Dynamic;
 
@@ -68,7 +70,7 @@ namespace ToolingConsole
 
             // Create Tooling Information
             Console.WriteLine("Test Tooling API");
-            var toolingInformation = await client.GetObjectsAsync<DescribeGlobalResult>();
+            var toolingInformation = await client.GetObjectsAsync<string>();
             var metadataContainer = new MetadataContainer { Name = "TestContainer" };
             metadataContainer.Id = await client.CreateAsync(MetadataContainer.SObjectTypeName, metadataContainer);
             if (metadataContainer.Id == null)
@@ -97,30 +99,5 @@ namespace ToolingConsole
                 Console.WriteLine("ApexClass - " + apexClasses.Name);
             }
         }
-
-        private class ApexClass
-        {
-            public const String SObjectTypeName = "ApexClass";
-
-            public String Id { get; set; }
-            public String Name { get; set; }
-        }
-
-        private class MetadataContainer
-        {
-            public const String SObjectTypeName = "MetadataContainer";
-
-            public String Id { get; set; }
-            public String Name { get; set; }
-        }
-
-        private class DescribeGlobalResult
-        {
-            public const String SObjectTypeName = "DescribeGlobalResult";
-
-            public String Id { get; set; }
-            public String Name { get; set; }
-        }
-
     }
 }
