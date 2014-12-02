@@ -69,11 +69,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CommonLibrariesForNET\CommonLibrariesForNET.csproj">
+    <ProjectReference Include="..\CommonLibrariesForNET\CommonLibrariesForNET.csproj">
       <Project>{688bc3a2-29c2-48f7-bc28-7a81abf5c3d3}</Project>
       <Name>CommonLibrariesForNET</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\ForceToolingToolKitforNET\ForceToolingToolKitforNET.csproj">
+    <ProjectReference Include="..\ForceToolingToolKitforNET\ForceToolingToolKitforNET.csproj">
       <Project>{e5890f03-a44e-4b3d-9abe-44cee813d489}</Project>
       <Name>ForceToolingToolKitforNET</Name>
     </ProjectReference>
