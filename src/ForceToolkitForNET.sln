@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneOAuth8.0", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolingToolKitforNET", "ForceToolingToolKitforNET\ForceToolingToolKitforNET.csproj", "{E5890F03-A44E-4B3D-9ABE-44CEE813D489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolingConsole", "ToolingConsole\ToolingConsole.csproj", "{1F40D8AC-27FC-4F33-A36F-D59F504207C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolingConsole", "..\samples\ToolingConsole\ToolingConsole.csproj", "{1F40D8AC-27FC-4F33-A36F-D59F504207C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
