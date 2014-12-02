@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneOAuth8.0", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolingToolKitforNET", "ForceToolingToolKitforNET\ForceToolingToolKitforNET.csproj", "{E5890F03-A44E-4B3D-9ABE-44CEE813D489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolingConsole", "..\samples\ToolingConsole\ToolingConsole.csproj", "{B60DEECF-1685-42A9-9DC2-5768C59611D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +201,16 @@ Global
 		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|ARM.ActiveCfg = Release|Any CPU
 		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|x64.ActiveCfg = Release|Any CPU
 		{E5890F03-A44E-4B3D-9ABE-44CEE813D489}.Release|x86.ActiveCfg = Release|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,5 +225,6 @@ Global
 		{EEBB0482-7F04-4366-8AD6-BC017E1EDA1D} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 		{9C88ADF7-095F-49F2-B9C4-9D794240323C} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 		{93EDAAC7-C754-4265-88CF-CF682EC2BAC1} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
+		{B60DEECF-1685-42A9-9DC2-5768C59611D5} = {A3EEC97B-D690-4618-B6F8-574FF92E3030}
 	EndGlobalSection
 EndGlobal
