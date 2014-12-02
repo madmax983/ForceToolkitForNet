@@ -58,6 +58,7 @@
     <Compile Include="Models\ApexTrigger.cs" />
     <Compile Include="Models\ApexTriggerMember.cs" />
     <Compile Include="Models\CompactLayout.cs" />
+    <Compile Include="Models\Completions.cs" />
     <Compile Include="Models\CustomField.cs" />
     <Compile Include="Models\CustomObject.cs" />
     <Compile Include="Models\DeployDetails.cs" />

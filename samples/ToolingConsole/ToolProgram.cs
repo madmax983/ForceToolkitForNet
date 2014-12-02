@@ -27,7 +27,7 @@ namespace ToolConsole
                 var task = RunSample();
                 task.Wait();
             }
-            catch (Exception e)
+            catch (System.Exception e)
             {
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);
@@ -57,6 +57,27 @@ namespace ToolConsole
             Console.WriteLine("Connected to Salesforce");
 
             var client = new ToolingClient(auth.InstanceUrl, auth.AccessToken, auth.ApiVersion);
+
+            //Query existing Apex Classes
+            Console.WriteLine("Get Classes");
+
+            string qry = "SELECT ID, Name FROM ApexClass";
+            var apexClasses = new List<ApexClass>();
+            var apexClassResults = await client.QueryAsync<ApexClass>(qry);
+            var totalSize = apexClassResults.totalSize;
+
+            Console.WriteLine("Queried " + totalSize + " records.");
+
+            //Query existing Profiles
+
+            //Query existing Apex Classes
+            Console.WriteLine("Get Completions");
+
+            string type = "apex";
+            var completions = new Completions();
+            var completionResults = await client.CompletionsAsync<Completions>(type);
+ 
+            Console.WriteLine("Queried " + totalSize + " records.");
         }
     }
 }
