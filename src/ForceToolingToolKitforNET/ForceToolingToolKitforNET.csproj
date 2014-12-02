@@ -87,7 +87,7 @@
     <Compile Include="Models\WorkflowTask.cs" />
     <Compile Include="ToolingClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkflowOutboundMessage.cs" />
+    <Compile Include="Models\WorkflowOutboundMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonLibrariesForNET\CommonLibrariesForNET.csproj">
